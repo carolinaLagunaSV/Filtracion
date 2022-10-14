@@ -9,7 +9,9 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author Chuwi
+ * @author Se añade
+ * codigo de comentario
+ * para hacer una prueba
  */
 public class Filtrador {
 
@@ -22,7 +24,7 @@ public class Filtrador {
         int contNegativos=0;
         int contPositivos=0;
         int contNeutros=0;
-        while(i<=5){
+        while(i<=10){
             numeros=Integer.parseInt(JOptionPane.showInputDialog("ingrese numeros (numero"+i+")"));
             if (numeros<0){
                 contNegativos++;
