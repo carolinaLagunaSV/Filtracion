@@ -22,7 +22,7 @@ public class Filtrador {
         int contNegativos=0;
         int contPositivos=0;
         int contNeutros=0;
-        while(i<=20){
+        while(i<=2){
             numeros=Integer.parseInt(JOptionPane.showInputDialog("ingrese numeros (numero"+i+")"));
             if (numeros<0){
                 contNegativos++;
