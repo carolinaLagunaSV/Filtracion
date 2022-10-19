@@ -21,7 +21,7 @@ public class Filtrador {
         int num;
         int c1 = 0,c2 = 0,c3 = 0;
         
-        for(int i = 1; i <= 20; i++){
+        for(int i = 1; i <= 10; i++){
             num = Integer.parseInt(JOptionPane.showInputDialog(null, "Ingrese el numero " + i));
             
             if(num<0){
