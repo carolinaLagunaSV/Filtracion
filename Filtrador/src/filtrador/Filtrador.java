@@ -9,7 +9,11 @@ import javax.swing.JOptionPane;
 
 /**
  *
+<<<<<<< HEAD
  * @author kevin
+=======
+ * @author Chuwi
+>>>>>>> origin/caro
  */
 public class Filtrador {
 
@@ -17,6 +21,7 @@ public class Filtrador {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+
         // TODO code application logic here
         int num;
         int c1 = 0,c2 = 0,c3 = 0;
@@ -38,8 +43,34 @@ public class Filtrador {
             
         }
         JOptionPane.showMessageDialog(null, "Ay " + c1 + " numeros negativos" + "\n" +
-                "Ay " + c2 + " numeros positivos " + "\n" +
+                "Ay " + c2 + " numeros positivos " + " +\n" +
                 "Ay " + c3 + " numeros neutros");
     }
     
 }
+//        int numeros;
+//        int i=1;
+//        int contNegativos=0;
+//        int contPositivos=0;
+//        int contNeutros=0;
+//        while(i<=10){
+//            numeros=Integer.parseInt(JOptionPane.showInputDialog("ingrese numeros (numero"+i+")"));
+//            if (numeros<0){
+//                contNegativos++;
+//            }else if(numeros==0){
+//                contNeutros++;
+//            }else if(numeros>0){
+//                contPositivos++;
+//            }
+//           
+//           
+//            i++;
+//        }
+//         JOptionPane.showMessageDialog(null, "Numeros positivos hay: "+contPositivos+"\n numeros negatios hay: "+contNegativos+"\nnumeros neutros hay: "+contNeutros);
+//    }
+//    
+//}
+
+//Estre proyecto ha sido bendecido por caro 
+//Ariana grande tu patrona
+>>>>>>> origin/caro
